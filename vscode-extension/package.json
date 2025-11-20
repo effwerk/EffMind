@@ -2,17 +2,18 @@
     "name": "effmind",
     "displayName": "EffMind",
     "description": "An efficient mind map tool that lets you effortlessly create and structure your thoughts.",
+    "publisher": "EffMind",
     "keywords": [
         "mindmap",
         "visualization",
         "diagram",
         "efficiency"
     ],
-    "version": "0.0.1",
+    "version": "0.1",
     "type": "module",
     "icon": "icon.png",
     "engines": {
-        "vscode": "^1.104.0"
+        "vscode": "^1.100.0"
     },
     "repository": {
         "type": "git",

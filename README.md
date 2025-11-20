@@ -55,8 +55,16 @@ EffMind is an open-source mind map editor that runs on both Web and Visual Studi
 * Tested on iOS 16 / iPadOS 16
 * Android testing pending
 
+<img src="effmind-iphone-preview.png" style="max-width: 300px;border: 1px solid #fff;border-radius: 6px;" alt="EffMind Preview">
+
+🔗 [https://mind.effwerk.com/](https://mind.effwerk.com/)
+
 ### VSCode Extension
 
 * Custom editor for `.mind` files
 * Webview loads complete UI
 * File association support
+
+<img src="effmind-vscode-preview.png" style="max-width: 90%;" alt="EffMind Preview">
+
+🔗 [https://marketplace.visualstudio.com/items?itemName=EffMind.effmind](https://marketplace.visualstudio.com/items?itemName=EffMind.effmind)  

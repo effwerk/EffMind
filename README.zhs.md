@@ -55,8 +55,16 @@ EffMind 是一个开源思维导图编辑器，可运行在 Web 与 Visual Studi
 * 已在 iOS 16 / iPadOS 16 测试
 * Android 待测试
 
+<img src="effmind-iphone-preview.png" style="max-width: 300px;border: 1px solid #fff;border-radius: 6px;" alt="EffMind Preview">
+
+🔗 [https://mind.effwerk.com/](https://mind.effwerk.com/)
+
 ### VSCode 扩展
 
 * 自定义编辑器打开 `.mind` 文件
 * Webview 加载完整 UI
 * 支持文件关联
+
+<img src="effmind-vscode-preview.png" style="max-width: 90%;" alt="EffMind Preview">
+
+🔗 [https://marketplace.visualstudio.com/items?itemName=EffMind.effmind](https://marketplace.visualstudio.com/items?itemName=EffMind.effmind)  

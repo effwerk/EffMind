@@ -1,0 +1,544 @@
+{
+  "data": {
+    "id": "root",
+    "text": "JavaScript Learning",
+    "children": [
+      {
+        "id": "node-1763637683913",
+        "text": "1️⃣ Core Concepts",
+        "children": [
+          {
+            "id": "node-1763637730147",
+            "text": "Variables",
+            "children": [
+              {
+                "id": "node-1763637744595",
+                "text": "let",
+                "children": [],
+                "height": 39.5,
+                "width": 47.109375,
+                "x": 1306.828125,
+                "y": -1413.5
+              },
+              {
+                "id": "node-1763637746128",
+                "text": "const",
+                "children": [],
+                "height": 39.5,
+                "width": 68.0703125,
+                "x": 1317.30859375,
+                "y": -1314
+              },
+              {
+                "id": "node-1763637749857",
+                "text": "var",
+                "children": [],
+                "height": 39.5,
+                "width": 51.125,
+                "x": 1308.8359375,
+                "y": -1214.5
+              }
+            ],
+            "height": 39.5,
+            "width": 92.671875,
+            "x": 1086.9375,
+            "y": -1314
+          },
+          {
+            "id": "node-1763637732374",
+            "text": "Data Types",
+            "children": [
+              {
+                "id": "node-1763637755607",
+                "text": "Number",
+                "children": [],
+                "height": 39.5,
+                "width": 85.03125,
+                "x": 1340.171875,
+                "y": -1115
+              },
+              {
+                "id": "node-1763637759463",
+                "text": "String",
+                "children": [],
+                "height": 39.5,
+                "width": 70.9140625,
+                "x": 1333.11328125,
+                "y": -1015.5
+              },
+              {
+                "id": "node-1763637763756",
+                "text": "Boolean",
+                "children": [],
+                "height": 39.5,
+                "width": 85.3359375,
+                "x": 1340.32421875,
+                "y": -916
+              },
+              {
+                "id": "node-1763637767440",
+                "text": "Null",
+                "children": [],
+                "height": 39.5,
+                "width": 56.5390625,
+                "x": 1325.92578125,
+                "y": -816.5
+              },
+              {
+                "id": "node-1763637771027",
+                "text": "Undefined",
+                "children": [],
+                "height": 39.5,
+                "width": 101.15625,
+                "x": 1348.234375,
+                "y": -717
+              },
+              {
+                "id": "node-1763637774776",
+                "text": "Object",
+                "children": [],
+                "height": 39.5,
+                "width": 75.640625,
+                "x": 1335.4765625,
+                "y": -617.5
+              }
+            ],
+            "height": 39.5,
+            "width": 107.0546875,
+            "x": 1094.12890625,
+            "y": -866.25
+          },
+          {
+            "id": "node-1763637737803",
+            "text": "Operators",
+            "children": [
+              {
+                "id": "node-1763637783240",
+                "text": "Arithmetic",
+                "children": [],
+                "height": 39.5,
+                "width": 100.6328125,
+                "x": 1339.71484375,
+                "y": -518
+              },
+              {
+                "id": "node-1763637787094",
+                "text": "Comparison",
+                "children": [],
+                "height": 39.5,
+                "width": 112.625,
+                "x": 1345.7109375,
+                "y": -418.5
+              },
+              {
+                "id": "node-1763637790674",
+                "text": "Logical",
+                "children": [],
+                "height": 39.5,
+                "width": 78.6875,
+                "x": 1328.7421875,
+                "y": -319
+              }
+            ],
+            "height": 39.5,
+            "width": 98.796875,
+            "x": 1090,
+            "y": -418.5
+          }
+        ],
+        "height": 39.5,
+        "width": 151.4453125,
+        "x": 814.87890625,
+        "y": -866.25
+      },
+      {
+        "id": "node-1763637700964",
+        "text": "2️⃣ Control Structures",
+        "children": [
+          {
+            "id": "node-1763637796601",
+            "text": "Conditionals",
+            "children": [
+              {
+                "id": "node-1763637800414",
+                "text": "if",
+                "children": [],
+                "height": 39.5,
+                "width": 38.671875,
+                "x": 1348.71875,
+                "y": -219.5
+              },
+              {
+                "id": "node-1763637804255",
+                "text": "switch",
+                "children": [],
+                "height": 39.5,
+                "width": 74.109375,
+                "x": 1366.4375,
+                "y": -120
+              }
+            ],
+            "height": 39.5,
+            "width": 115.15625,
+            "x": 1121.8046875,
+            "y": -169.75
+          },
+          {
+            "id": "node-1763637808302",
+            "text": "Loops",
+            "children": [
+              {
+                "id": "node-1763637809819",
+                "text": "for",
+                "children": [],
+                "height": 39.5,
+                "width": 48.9765625,
+                "x": 1310.43359375,
+                "y": -20.5
+              },
+              {
+                "id": "node-1763637814146",
+                "text": "while",
+                "children": [],
+                "height": 39.5,
+                "width": 65.34375,
+                "x": 1318.6171875,
+                "y": 79
+              },
+              {
+                "id": "node-1763637821763",
+                "text": "for..of",
+                "children": [],
+                "height": 39.5,
+                "width": 69.984375,
+                "x": 1320.9375,
+                "y": 178.5
+              }
+            ],
+            "height": 39.5,
+            "width": 71.71875,
+            "x": 1100.0859375,
+            "y": 79
+          }
+        ],
+        "height": 39.5,
+        "width": 175.0703125,
+        "x": 826.69140625,
+        "y": -20.5
+      },
+      {
+        "id": "node-1763637708009",
+        "text": "3️⃣ Functions & Scope",
+        "children": [
+          {
+            "id": "node-1763637825718",
+            "text": "Functions",
+            "children": [
+              {
+                "id": "node-1763637831476",
+                "text": "Declaration",
+                "children": [],
+                "height": 39.5,
+                "width": 108.1171875,
+                "x": 1368.26171875,
+                "y": 278
+              },
+              {
+                "id": "node-1763637835410",
+                "text": "Arrow Function",
+                "children": [],
+                "height": 39.5,
+                "width": 133.984375,
+                "x": 1381.1953125,
+                "y": 377.5
+              }
+            ],
+            "height": 39.5,
+            "width": 97.1484375,
+            "x": 1115.62890625,
+            "y": 327.75
+          },
+          {
+            "id": "node-1763637842046",
+            "text": "Scope",
+            "children": [
+              {
+                "id": "node-1763637854863",
+                "text": "Global",
+                "children": [],
+                "height": 39.5,
+                "width": 73.734375,
+                "x": 1327.2890625,
+                "y": 477
+              },
+              {
+                "id": "node-1763637858404",
+                "text": "Function",
+                "children": [],
+                "height": 39.5,
+                "width": 89.53125,
+                "x": 1335.1875,
+                "y": 576.5
+              },
+              {
+                "id": "node-1763637862474",
+                "text": "Block",
+                "children": [],
+                "height": 39.5,
+                "width": 67.8828125,
+                "x": 1324.36328125,
+                "y": 676
+              }
+            ],
+            "height": 39.5,
+            "width": 73.3671875,
+            "x": 1103.73828125,
+            "y": 576.5
+          },
+          {
+            "id": "node-1763637851081",
+            "text": "Closure",
+            "children": [
+              {
+                "id": "node-1763637873956",
+                "text": "Function accessing outer variables",
+                "children": [],
+                "height": 39.5,
+                "width": 267.3515625,
+                "x": 1433.15234375,
+                "y": 775.5
+              }
+            ],
+            "height": 39.5,
+            "width": 82.421875,
+            "x": 1108.265625,
+            "y": 775.5
+          }
+        ],
+        "height": 39.5,
+        "width": 177.8984375,
+        "x": 828.10546875,
+        "y": 526.75
+      },
+      {
+        "id": "node-1763637714795",
+        "text": "4️⃣ Core Objects",
+        "children": [
+          {
+            "id": "node-1763637884376",
+            "text": "Arrays",
+            "children": [
+              {
+                "id": "node-1763637896913",
+                "text": "push",
+                "children": [],
+                "height": 39.5,
+                "width": 63.6484375,
+                "x": 1283.82421875,
+                "y": 875
+              },
+              {
+                "id": "node-1763637898191",
+                "text": "pop",
+                "children": [],
+                "height": 39.5,
+                "width": 56.4765625,
+                "x": 1280.23828125,
+                "y": 974.5
+              },
+              {
+                "id": "node-1763637902414",
+                "text": "map",
+                "children": [],
+                "height": 39.5,
+                "width": 59.78125,
+                "x": 1281.890625,
+                "y": 1074
+              },
+              {
+                "id": "node-1763637907748",
+                "text": "filter",
+                "children": [],
+                "height": 39.5,
+                "width": 61.1484375,
+                "x": 1282.57421875,
+                "y": 1173.5
+              },
+              {
+                "id": "node-1763637912253",
+                "text": "reduce",
+                "children": [],
+                "height": 39.5,
+                "width": 77.5859375,
+                "x": 1290.79296875,
+                "y": 1273
+              }
+            ],
+            "height": 39.5,
+            "width": 74.0390625,
+            "x": 1064.98046875,
+            "y": 1074
+          },
+          {
+            "id": "node-1763637887597",
+            "text": "Objects",
+            "children": [
+              {
+                "id": "node-1763637919028",
+                "text": "`{}` and Destructuring",
+                "children": [],
+                "height": 39.5,
+                "width": 183.1953125,
+                "x": 1352.66796875,
+                "y": 1372.5
+              }
+            ],
+            "height": 39.5,
+            "width": 83.109375,
+            "x": 1069.515625,
+            "y": 1372.5
+          },
+          {
+            "id": "node-1763637893291",
+            "text": "Async",
+            "children": [
+              {
+                "id": "node-1763637922679",
+                "text": "Promise",
+                "children": [],
+                "height": 39.5,
+                "width": 85.4296875,
+                "x": 1292.39453125,
+                "y": 1472
+              },
+              {
+                "id": "node-1763637924278",
+                "text": "async-await",
+                "children": [],
+                "height": 39.5,
+                "width": 112.4375,
+                "x": 1305.8984375,
+                "y": 1571.5
+              }
+            ],
+            "height": 39.5,
+            "width": 71.71875,
+            "x": 1063.8203125,
+            "y": 1521.75
+          }
+        ],
+        "height": 39.5,
+        "width": 138.8046875,
+        "x": 808.55859375,
+        "y": 1223.25
+      },
+      {
+        "id": "node-1763637725047",
+        "text": "5️⃣ Browser Interaction",
+        "children": [
+          {
+            "id": "node-1763637932091",
+            "text": "DOM",
+            "children": [
+              {
+                "id": "node-1763637944138",
+                "text": "Select",
+                "children": [],
+                "height": 39.5,
+                "width": 73.078125,
+                "x": 1322.7578125,
+                "y": 1671
+              },
+              {
+                "id": "node-1763637949713",
+                "text": "Modify",
+                "children": [],
+                "height": 39.5,
+                "width": 77.0625,
+                "x": 1324.75,
+                "y": 1770.5
+              },
+              {
+                "id": "node-1763637954925",
+                "text": "Event",
+                "children": [],
+                "height": 39.5,
+                "width": 68.375,
+                "x": 1320.40625,
+                "y": 1870
+              }
+            ],
+            "height": 39.5,
+            "width": 64.8828125,
+            "x": 1103.77734375,
+            "y": 1770.5
+          },
+          {
+            "id": "node-1763637935593",
+            "text": "Fetch",
+            "children": [
+              {
+                "id": "node-1763637959123",
+                "text": "Asynchronous requests",
+                "children": [],
+                "height": 39.5,
+                "width": 191.0390625,
+                "x": 1385.40234375,
+                "y": 1969.5
+              }
+            ],
+            "height": 39.5,
+            "width": 68.546875,
+            "x": 1105.609375,
+            "y": 1969.5
+          },
+          {
+            "id": "node-1763637938104",
+            "text": "Storage",
+            "children": [
+              {
+                "id": "node-1763637968638",
+                "text": "localStorage",
+                "children": [],
+                "height": 39.5,
+                "width": 115.7734375,
+                "x": 1363.04296875,
+                "y": 2069
+              },
+              {
+                "id": "node-1763637972390",
+                "text": "sessionStorage",
+                "children": [],
+                "height": 39.5,
+                "width": 135.4765625,
+                "x": 1372.89453125,
+                "y": 2168.5
+              }
+            ],
+            "height": 39.5,
+            "width": 83.8203125,
+            "x": 1113.24609375,
+            "y": 2118.75
+          }
+        ],
+        "height": 39.5,
+        "width": 182.1796875,
+        "x": 830.24609375,
+        "y": 1919.75
+      }
+    ],
+    "x": 497,
+    "y": 377.5,
+    "height": 40.796875,
+    "width": 184.3125
+  },
+  "metadata": {
+    "view": {
+      "scale": 1,
+      "minScale": 0.2,
+      "maxScale": 3,
+      "svgWidth": 696,
+      "svgHeight": 755
+    }
+  }
+}
