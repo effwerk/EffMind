@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "prepare-debug",
+            "type": "shell",
+            "command": "node",
+            "args": [
+                "${workspaceFolder}/vscode-extension/prepare-debug.js"
+            ],
+            "problemMatcher": [],
+            "detail": "Copies source files to the extension directory for debugging."
+        },
+        {
+            "label": "clean-debug",
+            "type": "shell",
+            "command": "node",
+            "args": [
+                "${workspaceFolder}/vscode-extension/clean-debug.js"
+            ],
+            "problemMatcher": [],
+            "detail": "Removes the copied source files after a debug session."
+        }
+    ]
+}

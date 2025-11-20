@@ -1,0 +1,1 @@
+import{LitElement as i}from"./lit.js";import{LangManager as e}from"./LangManager.js";class l extends i{dispatch(t,n={},s=!0,c=!0){const a=new CustomEvent(t,{detail:n,bubbles:s,composed:c});this.dispatchEvent(a)}connectedCallback(){super.connectedCallback(),e.subscribe(this)}disconnectedCallback(){e.unsubscribe(this),super.disconnectedCallback()}}export{l as default};
