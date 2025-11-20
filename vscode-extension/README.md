@@ -1,5 +1,5 @@
 
-![EffMind Preview](./effmind-preview.png)
+![EffMind Preview](https://raw.githubusercontent.com/effwerk/EffMind/main/effmind-vscode-preview.png)
 *Visual example of EffMind mind map editor*
 
 EffMind is an open-source visual mind-mapping tool built with **Lit.js**. It supports automatic layout, node dragging, multilingual UI, light/dark themes, and more.
