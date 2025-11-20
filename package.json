@@ -1,0 +1,17 @@
+{
+    "name": "effmind",
+    "description": "An efficient mind map tool that lets you effortlessly create and structure your thoughts.",
+    "type": "module",
+    "scripts": {
+        "startWebServer": "node server.js",
+        "build": "node build.js"
+    },
+    "dependencies": {
+        "@vscode/vsce": "^3.6.2",
+        "generator-code": "^1.11.12",
+        "yo": "^5.1.0"
+    },
+    "devDependencies": {
+        "esbuild": "^0.20.2"
+    }
+}

@@ -1,0 +1,106 @@
+{
+  "data": {
+    "id": "root",
+    "text": "基准根节点",
+    "children": [
+      {
+        "id": "node-1761857122517",
+        "text": "节点一",
+        "children": [
+          {
+            "id": "node-1761857135341",
+            "text": "节点四",
+            "children": [],
+            "height": 39.5,
+            "width": 75,
+            "x": 832,
+            "y": 175
+          },
+          {
+            "id": "node-1761857183700-cjplmsdec",
+            "text": "节点五",
+            "children": [],
+            "height": 39.5,
+            "width": 75,
+            "x": 832,
+            "y": 274.5
+          },
+          {
+            "id": "node-1761857187341-vcg5lugqp",
+            "text": "节点六",
+            "children": [],
+            "height": 39.5,
+            "width": 75,
+            "x": 832,
+            "y": 374
+          }
+        ],
+        "height": 39.5,
+        "width": 75,
+        "x": 607,
+        "y": 274.5
+      },
+      {
+        "id": "node-1761857126605",
+        "text": "节点二",
+        "children": [
+          {
+            "id": "node-1761857191739-j449uc9ti",
+            "text": "节点七",
+            "children": [],
+            "height": 39.5,
+            "width": 75,
+            "x": 832,
+            "y": 473.5
+          }
+        ],
+        "height": 39.5,
+        "width": 75,
+        "x": 607,
+        "y": 473.5
+      },
+      {
+        "id": "node-1761857130233",
+        "text": "节点三",
+        "children": [
+          {
+            "id": "node-1761857168149",
+            "text": "节点八",
+            "children": [
+              {
+                "id": "node-1761857208127",
+                "text": "节点九",
+                "children": [],
+                "height": 39.5,
+                "width": 75,
+                "x": 1057,
+                "y": 573
+              }
+            ],
+            "height": 39.5,
+            "width": 75,
+            "x": 832,
+            "y": 573
+          }
+        ],
+        "height": 39.5,
+        "width": 75,
+        "x": 607,
+        "y": 573
+      }
+    ],
+    "x": 364.5,
+    "y": 374,
+    "width": 110,
+    "height": 40.796875
+  },
+  "metadata": {
+    "view": {
+      "scale": 1,
+      "minScale": 0.2,
+      "maxScale": 3,
+      "svgWidth": 643,
+      "svgHeight": 755
+    }
+  }
+}

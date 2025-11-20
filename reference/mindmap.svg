@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="880" height="537.5" viewBox="262 105.25 880 537.5" xmlns="http://www.w3.org/2000/svg" style="background-color: rgb(30, 30, 30)">
+    <style>
+        .node { transition: opacity 0.2s ease-in-out; }
+        .node-text { user-select: none; text-anchor: middle; dominant-baseline: central; }
+        .link { fill: none; }
+        .toggle-circle { cursor: pointer; }
+    </style>
+    <g id="links"><path class="link" data-source="root" data-target="node-1761857122517" d="M417,374 C477,349.125 507,299.375 567,274.5" style="fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" /><path class="link" data-source="node-1761857122517" data-target="node-1761857135341" d="M642,274.5 C702,249.625 732,199.875 792,175" style="fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" /><path class="link" data-source="node-1761857122517" data-target="node-1761857183700-cjplmsdec" d="M642,274.5 C702,274.5 732,274.5 792,274.5" style="fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" /><path class="link" data-source="node-1761857122517" data-target="node-1761857187341-vcg5lugqp" d="M642,274.5 C702,299.375 732,349.125 792,374" style="fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" /><path class="link" data-source="root" data-target="node-1761857126605" d="M417,374 C477,398.875 507,448.625 567,473.5" style="fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" /><path class="link" data-source="node-1761857126605" data-target="node-1761857191739-j449uc9ti" d="M642,473.5 C702,473.5 732,473.5 792,473.5" style="fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" /><path class="link" data-source="root" data-target="node-1761857130233" d="M417,374 C477,423.75 507,523.25 567,573" style="fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" /><path class="link" data-source="node-1761857130233" data-target="node-1761857168149" d="M642,573 C702,573 732,573 792,573" style="fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" /><path class="link" data-source="node-1761857168149" data-target="node-1761857208127" d="M867,573 C927,573 957,573 1017,573" style="fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" /></g>
+    <g id="nodes">
+            <g class="node" data-id="node-1761857135341" transform="translate(829.5, 175)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-37.5" y="-19.75" width="75" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">节点四</text>
+                
+            </g>
+        
+            <g class="node" data-id="node-1761857183700-cjplmsdec" transform="translate(829.5, 274.5)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-37.5" y="-19.75" width="75" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">节点五</text>
+                
+            </g>
+        
+            <g class="node" data-id="node-1761857187341-vcg5lugqp" transform="translate(829.5, 374)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-37.5" y="-19.75" width="75" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">节点六</text>
+                
+            </g>
+        
+            <g class="node" data-id="node-1761857122517" transform="translate(604.5, 274.5)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-37.5" y="-19.75" width="75" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">节点一</text>
+                <circle class="toggle-circle" cx="37.5" cy="0" r="8" style="fill:rgb(240, 240, 240);stroke:rgb(153, 153, 153);stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" fill="#f0f0f0" onclick="toggleNode('node-1761857122517')" />
+            </g>
+        
+            <g class="node" data-id="node-1761857191739-j449uc9ti" transform="translate(829.5, 473.5)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-37.5" y="-19.75" width="75" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">节点七</text>
+                
+            </g>
+        
+            <g class="node" data-id="node-1761857126605" transform="translate(604.5, 473.5)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-37.5" y="-19.75" width="75" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">节点二</text>
+                <circle class="toggle-circle" cx="37.5" cy="0" r="8" style="fill:rgb(240, 240, 240);stroke:rgb(153, 153, 153);stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" fill="#f0f0f0" onclick="toggleNode('node-1761857126605')" />
+            </g>
+        
+            <g class="node" data-id="node-1761857208127" transform="translate(1054.5, 573)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-37.5" y="-19.75" width="75" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">节点九</text>
+                
+            </g>
+        
+            <g class="node" data-id="node-1761857168149" transform="translate(829.5, 573)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-37.5" y="-19.75" width="75" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">节点八</text>
+                <circle class="toggle-circle" cx="37.5" cy="0" r="8" style="fill:rgb(240, 240, 240);stroke:rgb(153, 153, 153);stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" fill="#f0f0f0" onclick="toggleNode('node-1761857168149')" />
+            </g>
+        
+            <g class="node" data-id="node-1761857130233" transform="translate(604.5, 573)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-37.5" y="-19.75" width="75" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">节点三</text>
+                <circle class="toggle-circle" cx="37.5" cy="0" r="8" style="fill:rgb(240, 240, 240);stroke:rgb(153, 153, 153);stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" fill="#f0f0f0" onclick="toggleNode('node-1761857130233')" />
+            </g>
+        
+            <g class="node" data-id="root" transform="translate(364.5, 374)" style="fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto">
+                <rect class="node-rect" x="-52.5" y="-19.75" width="105" height="39.5" style="fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px;fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px"></rect>
+                <text class="node-text" style="fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto">基准根节点</text>
+                <circle class="toggle-circle" cx="52.5" cy="0" r="8" style="fill:rgb(240, 240, 240);stroke:rgb(153, 153, 153);stroke-width:1px;font-size:16px;font-family:-apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto" fill="#f0f0f0" onclick="toggleNode('root')" />
+            </g>
+        </g>
+    <script type="text/javascript">
+<![CDATA[
+
+            let mindMapData = {"id":"root","text":"基准根节点","children":[{"id":"node-1761857122517","text":"节点一","children":[{"id":"node-1761857135341","text":"节点四","children":[],"height":39.5,"width":75,"x":829.5,"y":175,"_collapsed":false},{"id":"node-1761857183700-cjplmsdec","text":"节点五","children":[],"height":39.5,"width":75,"x":829.5,"y":274.5,"_collapsed":false},{"id":"node-1761857187341-vcg5lugqp","text":"节点六","children":[],"height":39.5,"width":75,"x":829.5,"y":374,"_collapsed":false}],"height":39.5,"width":75,"x":604.5,"y":274.5,"_collapsed":false},{"id":"node-1761857126605","text":"节点二","children":[{"id":"node-1761857191739-j449uc9ti","text":"节点七","children":[],"height":39.5,"width":75,"x":829.5,"y":473.5,"_collapsed":false}],"height":39.5,"width":75,"x":604.5,"y":473.5,"_collapsed":false},{"id":"node-1761857130233","text":"节点三","children":[{"id":"node-1761857168149","text":"节点八","children":[{"id":"node-1761857208127","text":"节点九","children":[],"height":39.5,"width":75,"x":1054.5,"y":573,"_collapsed":false}],"height":39.5,"width":75,"x":829.5,"y":573,"_collapsed":false}],"height":39.5,"width":75,"x":604.5,"y":573,"_collapsed":false}],"x":364.5,"y":374,"width":105,"height":39.5,"_collapsed":false};
+            const curveType = 'cubic_smooth_s';
+            const styles = {"node":"fill:rgb(0, 0, 0);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto","nodeRect":"fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px","nodeRectRoot":"fill:rgb(58, 58, 58);stroke:rgb(90, 90, 90);stroke-width:2px;font-size:16px;font-family:-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:8px;ry:8px","nodeText":"fill:rgb(224, 224, 224);stroke:none;stroke-width:1px;font-size:16px;font-family:-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;text-anchor:middle;dominant-baseline:central;opacity:1;rx:auto;ry:auto","link":"fill:none;stroke:rgb(85, 85, 85);stroke-width:2px;font-size:16px;font-family:-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto","toggleCircle":"fill:rgb(240, 240, 240);stroke:rgb(153, 153, 153);stroke-width:1px;font-size:16px;font-family:-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;text-anchor:start;dominant-baseline:auto;opacity:1;rx:auto;ry:auto","toggleCircleFillCollapsed":"#aaa","toggleCircleFill":"#f0f0f0","backgroundColor":"rgb(30, 30, 30)"};
+
+            function findNode(id, node = mindMapData) {
+                if (node.id === id) return node;
+                if (node.children) {
+                    for (const child of node.children) {
+                        const found = findNode(id, child);
+                        if (found) return found;
+                    }
+                }
+                return null;
+            }
+
+            function autoLayout(rootNode) {
+                const verticalMargin = 60, horizontalMargin = 150;
+                let y_pos = {};
+                const firstPass = (node) => {
+                    let childrenHeight = 0;
+                    if (!node.children || node.children.length === 0 || node._collapsed) {
+                        childrenHeight = node.height;
+                    } else {
+                        node.children.forEach(child => { childrenHeight += firstPass(child); });
+                        childrenHeight += (node.children.length - 1) * verticalMargin;
+                    }
+                    y_pos[node.id] = childrenHeight;
+                    return childrenHeight;
+                };
+                const secondPass = (node, x, y) => {
+                    node.x = x; node.y = y;
+                    if (!node.children || node.children.length === 0 || node._collapsed) return;
+                    const totalHeight = y_pos[node.id];
+                    let startY = y - totalHeight / 2;
+                    node.children.forEach(child => {
+                        const childHeight = y_pos[child.id];
+                        const childY = startY + childHeight / 2;
+                        const childX = x + node.width / 2 + horizontalMargin + child.width / 2;
+                        secondPass(child, childX, childY);
+                        startY += childHeight + verticalMargin;
+                    });
+                };
+                firstPass(rootNode);
+                secondPass(rootNode, rootNode.x, rootNode.y);
+            }
+
+            function generateLinkPath(source, target, style) {
+                const sourceX = source.x + source.width / 2;
+                const sourceY = source.y;
+                const targetX = target.x - target.width / 2;
+                const targetY = target.y;
+                let d;
+                switch (curveType) {
+                    case 'straight': d = 'M' + sourceX + ',' + sourceY + ' L' + targetX + ',' + targetY; break;
+                    case 'quadratic_mid_y_offset':
+                        const midX_qmy = (sourceX + targetX) / 2;
+                        let controlY_qmy = (sourceY + targetY) / 2 + (targetY > sourceY ? 30 : -30);
+                        d = 'M' + sourceX + ',' + sourceY + ' Q' + midX_qmy + ',' + controlY_qmy + ' ' + targetX + ',' + targetY; break;
+                    case 'cubic_original_horizontal':
+                        const c_offset = 60;
+                        d = 'M' + sourceX + ',' + sourceY + ' C' + (sourceX + c_offset) + ',' + sourceY + ' ' + (targetX - c_offset) + ',' + targetY + ' ' + targetX + ',' + targetY; break;
+                    default:
+                        const hbf = 0.4, vbf = 0.5;
+                        const midX = (sourceX + targetX) / 2, midY = (sourceY + targetY) / 2;
+                        const c1x = sourceX + (targetX - sourceX) * hbf, c1y = sourceY + (midY - sourceY) * vbf;
+                        const c2x = targetX - (targetX - sourceX) * hbf, c2y = targetY - (targetY - midY) * vbf;
+                        d = 'M' + sourceX + ',' + sourceY + ' C' + c1x + ',' + c1y + ' ' + c2x + ',' + c2y + ' ' + targetX + ',' + targetY; break;
+                }
+                return '<path class="link" data-source="' + source.id + '" data-target="' + target.id + '" d="' + d + '" style="' + style.replace(/"/g, '&quot;') + '" />';
+            }
+
+            function redraw() {
+                autoLayout(mindMapData);
+                const allNodes = [];
+                const linkContainer = document.getElementById('links');
+                linkContainer.innerHTML = '';
+
+                function traverse(node) {
+                    allNodes.push(node);
+                    const nodeGroup = document.querySelector('g[data-id="' + node.id + '"]');
+                    if (nodeGroup) {
+                        nodeGroup.setAttribute('transform', 'translate(' + node.x + ', ' + node.y + ')');
+                        const toggleCircle = nodeGroup.querySelector('.toggle-circle');
+                        if (toggleCircle) {
+                             toggleCircle.setAttribute('fill', node._collapsed ? styles.toggleCircleFillCollapsed : styles.toggleCircleFill);
+                        }
+                    }
+
+                    if (node.children && !node._collapsed) {
+                        node.children.forEach(child => {
+                            linkContainer.innerHTML += generateLinkPath(node, child, styles.link);
+                            traverse(child);
+                        });
+                    }
+                }
+                traverse(mindMapData);
+                
+                const allNodeElements = document.querySelectorAll('.node');
+                const visibleNodeIds = new Set(allNodes.map(n => n.id));
+                allNodeElements.forEach(el => {
+                    const nodeId = el.dataset.id;
+                    const shouldBeVisible = visibleNodeIds.has(nodeId);
+                    el.style.display = shouldBeVisible ? '' : 'none';
+                });
+            }
+
+            function toggleNode(nodeId) {
+                const node = findNode(nodeId);
+                if (node && node.children && node.children.length > 0) {
+                    node._collapsed = !node._collapsed;
+                    redraw();
+                }
+            }
+        
+]]>
+    </script>
+</svg>

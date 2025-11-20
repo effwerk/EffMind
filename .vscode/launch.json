@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Extension",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}/vscode-extension",
+                "--disable-extensions"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/vscode-extension/dist/**/*.js"
+            ],
+            "preLaunchTask": "prepare-debug",
+            "postDebugTask": "clean-debug"
+        }
+    ]
+}

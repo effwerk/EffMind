@@ -1,0 +1,9 @@
+# Ignore build output and temporary files
+*.vsix
+
+# Ignore development files
+node_modules/
+helpers.js
+build.js
+clean-debug.js
+prepare-debug.js

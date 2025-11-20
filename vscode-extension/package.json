@@ -1,0 +1,116 @@
+{
+    "name": "effmind",
+    "displayName": "EffMind",
+    "description": "An efficient mind map tool that lets you effortlessly create and structure your thoughts.",
+    "keywords": [
+        "mindmap",
+        "visualization",
+        "diagram",
+        "efficiency"
+    ],
+    "version": "0.0.1",
+    "type": "module",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.104.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/effwerk/EffMind.git"
+    },
+    "author": "EffMind",
+    "bugs": {
+        "url": "https://github.com/effwerk/EffMind/issues"
+    },
+    "categories": [
+        "Visualization"
+    ],
+    "homepage": "https://mind.effwerk.com",
+    "license": "MIT",
+    "activationEvents": [
+        "onCustomEditor:mindmap.mindEditor"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "customEditors": [
+            {
+                "viewType": "mindmap.mindEditor",
+                "displayName": "MindMap Editor",
+                "selector": [
+                    {
+                        "filenamePattern": "*.mind"
+                    }
+                ]
+            }
+        ],
+        "commands": [
+            {
+                "command": "effmind.undo",
+                "title": "Undo"
+            },
+            {
+                "command": "effmind.redo",
+                "title": "Redo"
+            },
+            {
+                "command": "effmind.copy",
+                "title": "Copy"
+            },
+            {
+                "command": "effmind.paste",
+                "title": "Paste"
+            },
+            {
+                "command": "effmind.cut",
+                "title": "Cut"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "effmind.undo",
+                "when": "editorFocus && resourceExtname == .mind",
+                "key": "ctrl+z",
+                "mac": "cmd+z"
+            },
+            {
+                "command": "effmind.redo",
+                "when": "editorFocus && resourceExtname == .mind",
+                "key": "ctrl+y",
+                "mac": "cmd+shift+z"
+            },
+            {
+                "command": "effmind.redo",
+                "when": "editorFocus && resourceExtname == .mind",
+                "key": "ctrl+shift+z",
+                "mac": "cmd+y"
+            },
+            {
+                "command": "effmind.copy",
+                "when": "editorFocus && resourceExtname == .mind",
+                "key": "ctrl+c",
+                "mac": "cmd+c"
+            },
+            {
+                "command": "effmind.paste",
+                "when": "editorFocus && resourceExtname == .mind",
+                "key": "ctrl+v",
+                "mac": "cmd+v"
+            },
+            {
+                "command": "effmind.cut",
+                "when": "editorFocus && resourceExtname == .mind",
+                "key": "ctrl+x",
+                "mac": "cmd+x"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "node build.js"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.104.0",
+        "@types/node": "20.x",
+        "vsce": "^2.15.0",
+        "esbuild": "^0.23.0"
+    }
+}
