@@ -166,10 +166,22 @@ export default class ImportExport {
 
         // 检查文件是否包含元数据
         const hasMetadata = fileContent.data && fileContent.metadata;
-        const viewState = hasMetadata ? fileContent.metadata.view : null;
+        const viewStateRaw = hasMetadata ? fileContent.metadata.view : null;
 
-        // 设置思维导图数据
-        this.mindmapView.mindMapData = hasMetadata ? fileContent.data : fileContent;
+        // 合并 viewState 与默认值（metadata 可选）
+        const defaultView = { scale: 1, minScale: 0.2, maxScale: 3 };
+        const viewState = viewStateRaw
+            ? {
+                  scale: viewStateRaw.scale ?? defaultView.scale,
+                  minScale: viewStateRaw.minScale ?? defaultView.minScale,
+                  maxScale: viewStateRaw.maxScale ?? defaultView.maxScale,
+                  panX: viewStateRaw.panX,
+                  panY: viewStateRaw.panY,
+              }
+            : null;
+
+        // 设置思维导图数据：优先使用 fileContent.data（如果存在），否则使用整个解析对象
+        this.mindmapView.mindMapData = (fileContent && fileContent.data) ? fileContent.data : fileContent;
 
         // 如果根节点的坐标无效，则将其设置到画布中心
         if (isNaN(this.mindmapView.mindMapData.x) || isNaN(this.mindmapView.mindMapData.y)) {
@@ -177,15 +189,19 @@ export default class ImportExport {
             this.mindmapView.mindMapData.y = this.mindmapView.svg.clientHeight / 2;
         }
 
-        // 如果有视图状态，则应用它
-        if (viewState) {
+        // 如果有视图状态（metadata 提供），或者 metadata 完全缺失但我们仍希望应用默认 view
+        if (viewStateRaw) {
             this.mindmapView.viewportManager.setView(viewState);
+        } else {
+            // metadata 不存在 => 使用默认的 scale/minScale/maxScale，但不设置 pan（保持居中行为）
+            const defaultApply = { scale: defaultView.scale, minScale: defaultView.minScale, maxScale: defaultView.maxScale };
+            this.mindmapView.viewportManager.setView(defaultApply);
         }
 
         // 更新思维导图视图
         this.mindmapView.updateMindmap();
 
-        // 如果没有视图状态，或者视图状态中缺少平移信息，则将视图居中到根节点
+        // 如果视图中缺少平移信息，则将视图居中到根节点
         if (!viewState || viewState.panX === undefined || viewState.panY === undefined) {
             this.mindmapView.viewportManager.centerViewportOnNode('root');
         }

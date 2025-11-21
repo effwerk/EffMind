@@ -428,9 +428,28 @@ customElements.define(
                             console.warn('Error ensuring root position for imported data', err);
                         }
 
-                        if (fileContent.metadata && fileContent.metadata.view) {
-                            this.mindmapView.viewportManager.setView(fileContent.metadata.view);
+                        // 合并 metadata.view 与默认值（metadata 可选）
+                        const defaultView = { scale: 1, minScale: 0.2, maxScale: 3 };
+                        const viewRaw = fileContent.metadata && fileContent.metadata.view ? fileContent.metadata.view : null;
+                        if (viewRaw) {
+                            const mergedView = {
+                                scale: viewRaw.scale ?? defaultView.scale,
+                                minScale: viewRaw.minScale ?? defaultView.minScale,
+                                maxScale: viewRaw.maxScale ?? defaultView.maxScale,
+                                panX: viewRaw.panX,
+                                panY: viewRaw.panY,
+                            };
+                            this.mindmapView.viewportManager.setView(mergedView);
+                            if (mergedView.panX === undefined || mergedView.panY === undefined) {
+                                this.mindmapView.viewportManager.centerViewportOnNode('root');
+                            }
                         } else {
+                            // metadata 缺失：应用默认的 scale/minScale/maxScale，并居中
+                            this.mindmapView.viewportManager.setView({
+                                scale: defaultView.scale,
+                                minScale: defaultView.minScale,
+                                maxScale: defaultView.maxScale,
+                            });
                             this.mindmapView.viewportManager.centerViewportOnNode('root');
                         }
 

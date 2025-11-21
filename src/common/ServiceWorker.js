@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v1.0.2';
+const CACHE_VERSION = 'v1.2.0';
 const CACHE_NAME = `app-cache-${CACHE_VERSION}`;
 
 // 🧩 需要缓存的核心资源
