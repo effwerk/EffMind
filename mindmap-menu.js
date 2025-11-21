@@ -5,7 +5,8 @@ import{html as o,css as m,classMap as b}from"./common/lit.js";import g from"./co
             font-size: 14px;
             color: var(--menu-font-color);
         }
-        [hidden] {
+
+        :host([hidden]) {
             display: none !important;
         }
         ::-webkit-scrollbar {
