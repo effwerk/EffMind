@@ -1,106 +1,70 @@
 {
   "data": {
     "id": "root",
-    "text": "基准根节点",
+    "text": "Referentie root node",
     "children": [
       {
         "id": "node-1761857122517",
-        "text": "节点一",
+        "text": "Knooppunt 1",
         "children": [
           {
             "id": "node-1761857135341",
-            "text": "节点四",
-            "children": [],
-            "height": 39.5,
-            "width": 75,
-            "x": 832,
-            "y": 175
+            "text": "Knooppunt 4",
+            "children": []
           },
           {
             "id": "node-1761857183700-cjplmsdec",
-            "text": "节点五",
-            "children": [],
-            "height": 39.5,
-            "width": 75,
-            "x": 832,
-            "y": 274.5
+            "text": "Knooppunt 5",
+            "children": []
           },
           {
             "id": "node-1761857187341-vcg5lugqp",
-            "text": "节点六",
-            "children": [],
-            "height": 39.5,
-            "width": 75,
-            "x": 832,
-            "y": 374
+            "text": "Knooppunt 6",
+            "children": [
+              {
+                "id": "node-1763744508212",
+                "text": "Knooppunt 10",
+                "children": []
+              }
+            ]
           }
-        ],
-        "height": 39.5,
-        "width": 75,
-        "x": 607,
-        "y": 274.5
+        ]
       },
       {
         "id": "node-1761857126605",
-        "text": "节点二",
+        "text": "Knooppunt 2",
         "children": [
           {
             "id": "node-1761857191739-j449uc9ti",
-            "text": "节点七",
-            "children": [],
-            "height": 39.5,
-            "width": 75,
-            "x": 832,
-            "y": 473.5
+            "text": "Knooppunt 7",
+            "children": []
           }
-        ],
-        "height": 39.5,
-        "width": 75,
-        "x": 607,
-        "y": 473.5
+        ]
       },
       {
         "id": "node-1761857130233",
-        "text": "节点三",
+        "text": "Knooppunt 3",
         "children": [
           {
             "id": "node-1761857168149",
-            "text": "节点八",
+            "text": "Knooppunt 8",
             "children": [
               {
                 "id": "node-1761857208127",
-                "text": "节点九",
-                "children": [],
-                "height": 39.5,
-                "width": 75,
-                "x": 1057,
-                "y": 573
+                "text": "Knooppunt 9",
+                "children": []
               }
-            ],
-            "height": 39.5,
-            "width": 75,
-            "x": 832,
-            "y": 573
+            ]
           }
-        ],
-        "height": 39.5,
-        "width": 75,
-        "x": 607,
-        "y": 573
+        ]
       }
-    ],
-    "x": 364.5,
-    "y": 374,
-    "width": 110,
-    "height": 40.796875
+    ]
   },
   "metadata": {
     "view": {
       "scale": 1,
       "minScale": 0.2,
-      "maxScale": 3,
-      "svgWidth": 643,
-      "svgHeight": 755
+      "maxScale": 3
     }
   }
 }

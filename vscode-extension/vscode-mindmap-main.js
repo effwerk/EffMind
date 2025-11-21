@@ -406,12 +406,43 @@ customElements.define(
                         this.mindmapView.mindMapData =
                             fileContent.data || this.dispatchEvent(new Event('file-read-error'));
 
+                        // 如果导入的数据缺少根节点坐标，则将其置于画布中心，
+                        // 否则 autoLayout 会以根节点的 x/y 作为布局起点，缺失时会导致所有节点堆叠在左上角。
+                        try {
+                            const root = this.mindmapView.mindMapData;
+                            const needsPosition =
+                                !root || typeof root.x !== 'number' || typeof root.y !== 'number' ||
+                                isNaN(root.x) || isNaN(root.y);
+                            if (needsPosition) {
+                                // 如果 svg 未就绪，等待组件完成首次更新
+                                if (!this.mindmapView.svg) {
+                                    await this.mindmapView.updateComplete;
+                                }
+                                // 设为画布中心
+                                if (this.mindmapView.svg) {
+                                    root.x = this.mindmapView.svg.clientWidth / 2;
+                                    root.y = this.mindmapView.svg.clientHeight / 2;
+                                }
+                            }
+                        } catch (err) {
+                            console.warn('Error ensuring root position for imported data', err);
+                        }
+
                         if (fileContent.metadata && fileContent.metadata.view) {
                             this.mindmapView.viewportManager.setView(fileContent.metadata.view);
                         } else {
                             this.mindmapView.viewportManager.centerViewportOnNode('root');
                         }
+
                         this.mindmapView.updateMindmap();
+                        // Ensure LitElement has finished updating and DOM/CSS is ready
+                        // so that renderer.measureText and layout calculations can run properly
+                        // and populate runtime fields (x/y/width/height).
+                        try {
+                            await this.mindmapView.updateComplete;
+                        } catch (err) {
+                            console.warn('Waiting for mindmapView updateComplete failed', err);
+                        }
                         break;
                     }
                     case 'command-execute': {

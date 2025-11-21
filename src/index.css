@@ -158,9 +158,9 @@ html[data-theme='dark'] {
 
     /* --- 信息页面 --- */
     --message-overlay-font-color: #f00;
-    --message-overlay-buttom-font-color: #444;
-    --message-overlay-buttom-border-color: #e0e0e0;
-    --message-overlay-buttom-hover-bg-color: #444;
+    --message-overlay-buttom-font-color: #ffffff;
+    --message-overlay-buttom-border-color: #272727;
+    --message-overlay-buttom-hover-bg-color: #272727;
 }
 
 /*

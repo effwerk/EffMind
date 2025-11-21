@@ -32,6 +32,11 @@ export default class ImportExport {
             if (!node) continue;
             // _collapsed 是一个运行时状态，表示节点是否折叠，不需要保存
             delete node._collapsed;
+            // 节点的布局信息为运行时计算值，不应写入文件
+            delete node.x;
+            delete node.y;
+            delete node.width;
+            delete node.height;
             
             // 如果有子节点，将它们也加入栈中继续处理
             if (node.children) {
@@ -41,6 +46,9 @@ export default class ImportExport {
 
         // 拷贝当前的视图状态
         const viewStateToSave = { ...this.mindmapView.viewState };
+        // svgWidth/svgHeight 是运行时由 DOM 决定的属性，不应保存在文件中
+        delete viewStateToSave.svgWidth;
+        delete viewStateToSave.svgHeight;
         // 如果不记录平移信息，则从视图状态中删除 panX 和 panY
         if (!recordPan) {
             delete viewStateToSave.panX;

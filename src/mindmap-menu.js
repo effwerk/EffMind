@@ -11,7 +11,8 @@ class MindmapMenu extends MindmapBaseElement {
             font-size: 14px;
             color: var(--menu-font-color);
         }
-        [hidden] {
+
+        :host([hidden]) {
             display: none !important;
         }
         ::-webkit-scrollbar {
